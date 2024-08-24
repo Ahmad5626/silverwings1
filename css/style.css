@@ -211,7 +211,12 @@
 .carousel .carousel-item img {
     height: 700px;
 }
-
+@media(max-width: 992px) {
+    .carousel .carousel-item,
+.carousel .carousel-item img {
+    height: 350px;
+}
+}
 .carousel-item .carousel-caption {
     position: absolute;
     width: 100%;
